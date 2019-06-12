@@ -1,3 +1,1 @@
-First README
-# holberton-system_engineering-devops
-# holberton-system_engineering-devops
+This Main repository contains the project lapsed on 06-13-2019
