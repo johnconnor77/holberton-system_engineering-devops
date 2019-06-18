@@ -1,0 +1,1 @@
+This directory contains I/O Redirection basic commands lines
