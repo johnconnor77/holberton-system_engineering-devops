@@ -1,0 +1,1 @@
+This directory contains a bunch of codes on shell, initi files,variables and expansions
