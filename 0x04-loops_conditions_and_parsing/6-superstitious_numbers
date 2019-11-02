@@ -1,0 +1,25 @@
+#!/usr/bin/env bash
+# Script that displays text 20 times and prints different text for the 4th, 9th and 17th iteration
+
+i=1
+text4="bad luck from China"
+text9="bad luck from Japan"
+text17="bad luck from Italy"
+
+while ((i <= 20))
+do
+    echo "$i"
+    case $i in
+        4)
+            echo "$text4"
+            ;;
+        9)
+            echo "$text9"
+            ;;
+        17)
+            echo "$text17"
+            ;;
+    esac
+    ((i++))
+done
+
