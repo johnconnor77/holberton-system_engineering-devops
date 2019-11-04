@@ -24,10 +24,6 @@ At Holberton School, there are several tracks to learn about to become a Full-St
 
 - Bash
 - Scripting
-- Networking
-- Web stack
-- Security
-- CI/CD
-- Web stack debugging
+
 
 
