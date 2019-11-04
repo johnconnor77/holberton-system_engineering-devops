@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# Displays line containing the bash word, to be able to easily get the PID
+ps -auxf | grep 'bash'
+# shellcheck disable=SC2009
