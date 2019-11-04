@@ -7,7 +7,7 @@
 DevOps is the combination of cultural philosophies, practices, and tools that increases an organization’s ability to deliver applications and services at high velocity: evolving and improving products at a faster pace than organizations using traditional software development and infrastructure management processes. This speed enables organizations to better serve their customers and compete more effectively in the market.
 (source: "https://aws.amazon.com/devops/what-is-devops")
 
-![](https://www.channelfutures.com/files/2018/02/DevOps-2018_0.jpg)
+<img align="center" src="https://www.channelfutures.com/files/2018/02/DevOps-2018_0.jpg" width="60%"/>
 
 ## Table of Contents
 
