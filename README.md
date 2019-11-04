@@ -1,4 +1,4 @@
-## Holberton-System_engineering-devops
+## System_engineering-devops
 
 !["Holberton Logo"](https://www.holbertonschool.com/holberton-logo-twitter-card.png)
 
