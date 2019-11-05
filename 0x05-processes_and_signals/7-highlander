@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+# Script that prints text indefinitely and prints different text when SIGTERM is recieved
+
+bool=true
+
+trap "echo I am invincible!!!" SIGTERM
+
+while $bool
+do
+    echo "To infinity and beyond"
+    sleep 2
+done
