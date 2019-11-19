@@ -20,5 +20,4 @@ File|Task
 5-beginning_and_end.rb | Regex that matches any character in between `h` and `n`
 6-phone_number.rb | Regex that matches a 10 digit phone number
 7-OMG_WHY_ARE_YOU_SHOUTING.rb | Regex matches only capital letters
-100-textme.rb | Regex that finds sender, receiver and flags info from a file
-101-passed_linkedin_regex_challenge.jpg | A screenshot to prove that I completed the LinkedIn Regex puzzle
+
