@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# Stat running Apache in a docker container
+
+sudo service apache2 start
