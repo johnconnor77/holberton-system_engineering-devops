@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+# Script that install nginx web server
+
+sudo apt-get update
+sudo apt-get install -y nginx
+echo "Holberton School" | sudo tee /var/www/html/index.nginx-debian.html
+sudo sed -i '19a rewrite ^/redirect_me https://google.com permanent;' /etc/nginx/sites-enabled/default
+sudo service nginx restart
+
