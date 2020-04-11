@@ -8,6 +8,6 @@ sudo apt-get install -y haproxy=1.6.\*
 
 #Backend and Frontend
 
-sudo sed -i "$ a \ \nfrontend http\n \tbind *:80\n \tmode http\n \tdefault_backend web-backend\n \nbackend web-backend\n \tmode http\n \tbalance roundrobin\n \tserver 878-web-01 35.231.66.22 check\n \tserver 878-web-02 34.73.17.45 check\n" /etc/haproxy/haproxy.cfg
+sudo sed -i "$ a \ \nfrontend localnodes\n \tbind *:80\n \tmode http\n \tdefault_backend nodes\n \nbackend nodes\n \tmode http\n \tbalance roundrobin\n \tserver 878-web-01 35.231.66.22 check\n \tserver 878-web-02 34.73.17.45 check\n" /etc/haproxy/haproxy.cfg
 
 sudo service haproxy restart
