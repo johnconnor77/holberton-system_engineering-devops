@@ -10,7 +10,6 @@ This project in the System engineering & DevOps series is about:
 * Why web server usually have a parent process and child processes
 * What are the main HTTP requests
 
-
 ---
 File|Task
 ---|---
