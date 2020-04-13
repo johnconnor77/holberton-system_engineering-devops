@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# Bash script that rum whoami with user as argument
+
+sudo -u "$1" "whoami"
