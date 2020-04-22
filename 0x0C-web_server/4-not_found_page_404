@@ -4,8 +4,8 @@
 sudo apt-get update
 sudo apt-get install -y nginx
 echo "Holberton School" | sudo tee /var/www/html/index.nginx-debian.html
-sudo sed -i '19a rewrite ^/redirect_me https://google.com permanent;' /etc/nginx/sites-enabled/default
+sudo sed -i '19a \\trewrite ^/redirect_me https://google.com permanent;' /etc/nginx/sites-available/default
 echo "Ceci n'est pas une page" | sudo tee /usr/share/nginx/html/custom_404.html
-sudo sed -i '35a error_page 404 /custom_404.html;\n location = /custom_404.html { \n root /usr/share/nginx/html; \n internal;\n}' /etc/nginx/sites-enabled/default
+sudo sed -i '35a \\terror_page 404 /custom_404.html;\n\tlocation = /custom_404.html { \n\troot /usr/share/nginx/html; \n\tinternal;\n\t}' /etc/nginx/sites-available/default
 sudo service nginx restart
 
