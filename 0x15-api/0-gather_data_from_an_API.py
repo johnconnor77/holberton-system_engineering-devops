@@ -28,7 +28,7 @@ def get_todolist_progress():
                       len(completed_user_tasks), len(total_user_tasks)))
 
         for task in completed_user_tasks:
-            print("\t{}".format(task.get("title")))
+            print("\t {}".format(task.get("title")))
     except KeyError:
         pass
 
