@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-    Expand #0 script to export data in the CSV format
+    Expand #0 script to export data in the JSON format
 """
 
 import json
@@ -38,7 +38,7 @@ def get_todolist_progress():
             json_data.append(todo_dict)
 
         with open("{}.json".format(argv[1]), mode="w") as json_file:
-            final_dict = {argv[1]: json_data}
+            final_dict = {user_id: json_data}
             json.dump(final_dict, json_file)
 
     except KeyError:
