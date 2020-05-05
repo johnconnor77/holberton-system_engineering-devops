@@ -20,7 +20,7 @@ This project in the System engineering & DevOps series is about:
 ---
 File|Task
 ---|---
-0-gather_data_from_an_API.py | Python script that returns information about a peron's todo list when the employee ID is given
+0-gather_data_from_an_API.py | Python script that returns information about a peron's To Do list when the employee ID is given
 1-export_to_CSV.py | Expand #0 script to export data in the CSV format
 2-export_to_JSON.py | Expand #0 script to to export data in the JSON format
 3-dictionary_of_list_of_dictionaries.py | Expand #0 script to record all taks from all employees and export the data in JSON format
